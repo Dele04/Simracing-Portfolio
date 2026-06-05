@@ -2,8 +2,6 @@
 
 Welcome to my official sim racing portfolio repository. This repository hosts a clean, modern, single-page web portfolio showcasing my competitive racing statistics, championship highlights, and data-engineering capabilities.
 
-🌐 **Live Website:** [https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/)
-
 ---
 
 ## 👤 About Me
@@ -46,5 +44,4 @@ I utilize a highly technical workflow to analyze setup behavior, optimize trail-
 
 ## 📬 Contact & Links
 Looking to connect for league openings, team driving opportunities, or engineering roles? 
-* **Email:** [your.email@example.com]
 * **Team Portal:** [Overdrive Sim Racing]
