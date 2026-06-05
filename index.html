@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derrick Patrick | Sim Racing Portfolio</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        racingRed: '#FF2A2A',
+                        darkBg: '#0F1115',
+                        cardBg: '#1A1D24',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-racingRed selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-darkBg/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl font-black tracking-tighter uppercase italic">
+                    DERRICK<span class="text-racingRed">PATRICK</span>
+                </span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide uppercase">
+                <a href="#profile" class="hover:text-racingRed transition-colors">Profile</a>
+                <a href="#stats" class="hover:text-racingRed transition-colors">Stats</a>
+                <a href="#career" class="hover:text-racingRed transition-colors">Championships</a>
+                <a href="#tech" class="hover:text-racingRed transition-colors">Technical</a>
+            </nav>
+            <a href="mailto:your.email@example.com" class="bg-racingRed hover:bg-red-700 text-white px-4 py-2 rounded text-xs font-bold uppercase tracking-wider transition-colors">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
+
+        <!-- Hero / Profile Section -->
+        <section id="profile" class="grid md:grid-cols-3 gap-8 items-center pt-4">
+            <div class="md:col-span-2 space-y-6">
+                <span class="inline-block bg-racingRed/10 text-racingRed text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-racingRed/20">
+                    Overdrive Sim Racing Team
+                </span>
+                <h1 class="text-4xl sm:text-6xl font-black uppercase tracking-tight italic">
+                    Sim Racing <br>
+                    <span class="text-racingRed">Competitor</span>
+                </h1>
+                <p class="text-gray-400 text-lg leading-relaxed max-w-xl">
+                    Dedicated sim racing competitor specializing in endurance racing and multi-class sports car categories. Blending ultra-consistent race pace with deep telemetry analysis to deliver maximum performance on track.
+                </p>
+                <div class="flex flex-wrap gap-3 text-sm text-gray-400">
+                    <span class="bg-cardBg px-3 py-1.5 rounded border border-gray-800">🏆 Le Mans Ultimate</span>
+                    <span class="bg-cardBg px-3 py-1.5 rounded border border-gray-800">🏁 MoTeC Data Analyst</span>
+                    <span class="bg-cardBg px-3 py-1.5 rounded border border-gray-800">⚙️ Direct Drive & Load Cell Rig</span>
+                </div>
+            </div>
+            <!-- Profile Rig Placeholder / Callout -->
+            <div class="bg-cardBg border border-gray-800 p-6 rounded-xl space-y-4 shadow-xl">
+                <div class="h-48 w-full bg-gradient-to-br from-racingRed/20 to-zinc-800 rounded-lg flex items-center justify-center border border-gray-700">
+                    <span class="text-gray-500 text-sm font-mono">[ Sim Rig Photo / Avatar ]</span>
+                </div>
+                <div>
+                    <h3 class="font-bold uppercase tracking-wide text-sm">Hardware Specs</h3>
+                    <p class="text-xs text-gray-400 mt-1">Direct Drive Wheel Base | Load Cell Pedals | Premium Sim Racing Setup</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800">
+
+        <!-- Racing Stats Section -->
+        <section id="stats" class="space-y-6">
+            <div class="flex justify-between items-end">
+                <h2 class="text-2xl font-black uppercase tracking-tight italic border-l-4 border-racingRed pl-3">
+                    Career Stats
+                </h2>
+                <span class="text-xs text-gray-500 uppercase tracking-widest font-mono">Verified Data via image_7091ba.png</span>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-cardBg border border-gray-800 p-6 rounded-xl text-center shadow-lg">
+                    <span class="block text-3xl sm:text-4xl font-black text-white">130</span>
+                    <span class="block text-xs uppercase tracking-wider text-gray-400 mt-1">Total Races</span>
+                </div>
+                <div class="bg-cardBg border border-gray-800 p-6 rounded-xl text-center shadow-lg">
+                    <span class="block text-3xl sm:text-4xl font-black text-racingRed">23</span>
+                    <span class="block text-xs uppercase tracking-wider text-gray-400 mt-1">Class Wins</span>
+                </div>
+                <div class="bg-cardBg border border-gray-800 p-6 rounded-xl text-center shadow-lg">
+                    <span class="block text-3xl sm:text-4xl font-black text-white">55</span>
+                    <span class="block text-xs uppercase tracking-wider text-gray-400 mt-1">Podiums</span>
+                </div>
+                <div class="bg-cardBg border border-gray-800 p-6 rounded-xl text-center shadow-lg">
+                    <span class="block text-3xl sm:text-4xl font-black text-white">20</span>
+                    <span class="block text-xs uppercase tracking-wider text-gray-400 mt-1">Fastest Laps</span>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800">
+
+        <!-- Championship Highlights Section -->
+        <section id="career" class="space-y-6">
+            <h2 class="text-2xl font-black uppercase tracking-tight italic border-l-4 border-racingRed pl-3">
+                Championship Highlights
+            </h2>
+            <div class="space-y-4">
+                <!-- Achievement 1 -->
+                <div class="bg-cardBg border border-gray-800 p-6 rounded-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4 transition-all hover:border-gray-700 shadow-md">
+                    <div>
+                        <span class="text-xs font-bold text-racingRed uppercase tracking-wider">Le Mans Ultimate League Championship</span>
+                        <h3 class="text-xl font-bold uppercase mt-1">Endurance Series</h3>
+                        <p class="text-gray-400 text-sm mt-1 max-w-xl">Secured multiple pole positions and class victories competing under the Overdrive Sim Racing Team banner.</p>
+                    </div>
+                    <div class="bg-zinc-800 border border-gray-700 font-black px-4 py-2 rounded text-xl italic uppercase text-center w-full md:w-auto min-w-[100px]">
+                        Top 3 <span class="text-xs block font-normal text-gray-400 tracking-normal normal-case mt-0.5">Overall</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-800">
+
+        <!-- Technical / Telemetry Section -->
+        <section id="tech" class="grid md:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+                <h2 class="text-2xl font-black uppercase tracking-tight italic border-l-4 border-racingRed pl-3">
+                    Telemetry & Data Analysis
+                </h2>
+                <p class="text-gray-400 leading-relaxed">
+                    I do not rely solely on driving feel. I actively optimize racing lines, vehicle load setups, and trail-braking phases by parsing data traces frame by frame to maximize stint performance.
+                </p>
+                <ul class="space-y-3 text-sm text-gray-300">
+                    <li class="flex items-center space-x-3">
+                        <span class="text-racingRed font-bold">✓</span>
+                        <span>Expert proficiency in telemetry toolsets and data processing</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-racingRed font-bold">✓</span>
+                        <span>Airtight throttle/brake trace overlay troubleshooting</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-racingRed font-bold">✓</span>
+                        <span>Suspension damper analysis to stabilize tire slip angles</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Telemetry Visual Block -->
+            <div class="bg-cardBg border border-gray-800 p-6 rounded-xl font-mono text-xs text-green-400 space-y-2 shadow-lg">
+                <div class="flex justify-between border-b border-gray-800 pb-2 text-gray-500 font-sans font-bold uppercase tracking-wider">
+                    <span>Telemetry Output Channel</span>
+                    <span>Status: Logged</span>
+                </div>
+                <p class="text-gray-400">// Brake Pressure Trace Phase 1 [Turn 1 Entry]</p>
+                <p>100% [██████████████████████████] Peak Input</p>
+                <p> 75% [███████████████████░░░░░░░] Trail Phase Initiated</p>
+                <p> 30% [████████░░░░░░░░░░░░░░░░░░] Corner Apex Hold</p>
+                <p class="text-gray-500 mt-4">// Steering Angle & Slip Rate Delta Match: 0.00s</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-950 border-t border-gray-900 mt-24 py-8 text-center text-xs text-gray-500 font-medium uppercase tracking-widest">
+        <p>&copy; 2026 Derrick Patrick. All Race Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
